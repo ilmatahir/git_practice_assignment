@@ -1,11 +1,7 @@
-let str="racecar";
-let bag= " ";
-for(let i=str.length-1; i>=0; i--){
-	bag+=str[i];
-	}
-if(bag==str){
-	console.log("It is a palindrome");
+let str = "racecar";
+let bag = ""
+for(let i = str.length-1; i>=0; i--){
+  bag += str[i];
 }
-else{
-	console.log("It is not a palindrome");
-}
+
+(bag ==str)?console.log(str,"is a Palindrome"):console.log(str,"Not a Palindrome");
